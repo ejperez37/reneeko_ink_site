@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+
+* {
+    box-sizing: border-box;
+    background-color: grey;
+    color: white;
+}
+
+body {
+    background-image: URL(/images/Mantis.jpg);
+    height: 100dvh;
+    font-family: 'Playfair Display', sans-serif;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+}
+
+.center {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.placeholderLogo {
+    background-color: red;
+    width: 100px;
+    height: 100px;
+}
+
+button {
+    font-family: 'Playfair Display', sans-serif;
+    margin-inline: 5em;
+}
+
+main {
+    height: 80dvh;
+}
+
+.main {
+    display: flex;
+    height: 80dvh;
+    justify-content: center;
+    align-items: end;
+}
+
+h1 {
+    font-size: 5rem;
+    font-weight: lighter;
+}
+
+footer {
+    display: flex;
+    justify-content: space-around;
+}
+
+.addressBox {
+    display: flex;
+    flex-direction: column;
+}
+
+.addressBox p {
+    margin: 0;
+}
